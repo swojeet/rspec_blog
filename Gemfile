@@ -53,3 +53,7 @@ group :development, :test do
 end
 
 gem 'factory_girl_rails'
+
+group :test do
+	gem 'shoulda-matchers', '~> 3.1'
+end
